@@ -14,6 +14,9 @@
 			<property name="hibernate.show_sql" value="true"/>
 			<property name="hibernate.format_sql" value="true"/>
 			<property name="hibernate.use_sql_comments" value="true"/>
+
+			<!-- 이 설정을 켜면 쓰기지연을 batch 처럼 쿼리를 모아서 db에 한번에 날림 -->
+<!--			<property name="hibernate.jdbc.batth_size" value="10"/>-->
 			<!--<property name="hibernate.hbm2ddl.auto" value="create" />-->
 		</properties>
 	</persistence-unit>
